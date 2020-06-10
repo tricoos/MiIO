@@ -8,6 +8,7 @@ use MiIO\Devices\BaseDevice;
 use MiIO\Devices\Gateway;
 use MiIO\Devices\MiRobot;
 use MiIO\Devices\PhilipsLightBulb;
+use MiIO\Devices\SmartMiFan;
 use MiIO\Models\Device;
 use MiIO\Traits\Sensor;
 
@@ -90,6 +91,16 @@ class Factory
     public static function philipsLightBulb(string $ipOrDeviceName, string $token)
     {
         return new PhilipsLightBulb(self::getDevice($ipOrDeviceName, $token));
+    }
+
+    /**
+     * @param string $ipOrDeviceName
+     * @param string $token
+     * @return PhilipsLightBulb
+     */
+    public static function SmartMiFan(string $ipOrDeviceName, string $token)
+    {
+        return new SmartMiFan(self::getDevice($ipOrDeviceName, $token));
     }
 
     /**
