@@ -1,23 +1,31 @@
 {
-  "name": "ggottwald/miio",
-  "description": "Control Xiaomi Mi Home devices",
-  "type": "library",
-  "require": {
-    "php": ">=7.0",
-    "clue/socket-raw": "~1.2",
-    "react/promise": "^2.5",
-    "ext-json": "*"
-  },
-  "license": "GNU AFFERO GENERAL PUBLIC LICENSE",
-  "authors": [
-    {
-      "name": "Götz Gottwald",
-      "email": "goetz.gottwald@gmx.net"
+    "name": "tricoos/miio",
+    "description": "Control Xiaomi Mi Home devices",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "clue/socket-raw": "~1.2",
+        "react/promise": "^2.5",
+        "ext-json": "*"
+    },
+    "license": "GNU AFFERO GENERAL PUBLIC LICENSE",
+    "authors": [
+        {
+            "name": "Götz Gottwald",
+            "email": "goetz.gottwald@gmx.net"
+        },
+        {
+            "name": "jonofe",
+            "email": "unknown@example.com"
+        },
+        {
+            "name": "tricoos",
+            "email": "tricoos@bubblebot.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MiIO\\": "src/"
+        }
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "MiIO\\": "src/"
-    }
-  }
 }
