@@ -1,5 +1,5 @@
 {
-  "name": "ggottwald/miio",
+  "name": "tricoos/miio",
   "description": "Control Xiaomi Mi Home devices",
   "type": "library",
   "require": {
@@ -13,6 +13,14 @@
     {
       "name": "Götz Gottwald",
       "email": "goetz.gottwald@gmx.net"
+    },
+    {
+      "name": "jonofe",
+      "email": "unknown@example.com"
+    },
+    {
+      "name": "sk",
+      "email": "git@bubblebot.de"
     }
   ],
   "autoload": {
