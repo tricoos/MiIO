@@ -23,6 +23,7 @@
             "email": "tricoos@bubblebot.de"
         }
     ],
+
     "autoload": {
         "psr-4": {
             "MiIO\\": "src/"
