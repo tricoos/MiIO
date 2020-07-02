@@ -79,6 +79,14 @@ abstract class BaseDevice
     }
 
     /**
+     * @return array
+     */
+    public function getDefinedProperties()
+    {
+        return $this->properties;
+    }
+
+    /**
      * @return Properties
      * @throws Exception
      */
