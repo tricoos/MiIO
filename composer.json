@@ -19,11 +19,10 @@
             "email": "unknown@example.com"
         },
         {
-            "name": "tricoos",
-            "email": "tricoos@bubblebot.de"
+            "name": "sk",
+            "email": "git@bubblebot.de"
         }
     ],
-
     "autoload": {
         "psr-4": {
             "MiIO\\": "src/"
