@@ -96,7 +96,7 @@ class Factory
     /**
      * @param string $ipOrDeviceName
      * @param string $token
-     * @return PhilipsLightBulb
+     * @return SmartMiFan
      */
     public static function SmartMiFan(string $ipOrDeviceName, string $token)
     {
